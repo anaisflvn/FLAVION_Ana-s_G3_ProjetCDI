@@ -1,0 +1,33 @@
+.popup-btn {
+    width: 20%;
+    height: 20%;
+
+    margin-left: 40%;
+
+    border-radius: 30px;
+    padding: 10px;
+
+    background-color: #00F0FF;
+    color: #fff;
+    
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    animation: blink 3s ease-in-out infinite;
+}
+
+@keyframes blink {
+    0% { background-color: #00F0FF; }
+    50% { background-color: #00ffd5; }
+    100% { background-color: #00ffbb; }
+}
+
+.annuler{
+    width: 30px;
+    margin-left: 10%;
+    padding-top: 50px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+

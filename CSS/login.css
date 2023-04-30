@@ -1,0 +1,43 @@
+/* Style pour l'interface de connexion */
+.title {
+  color: white;
+  align-items: center;
+}
+
+.login-form {
+  width: 23%;
+  text-align: center;
+  justify-content: center;
+  margin-top: 10%; 
+  margin-left: 10%;       
+  padding: 30px;
+  background: #2d2d2d;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px #2d2d2d;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 30px;
+}
+  
+.login-form input[type="submit"] {
+  background-color: #00F0FF;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  align-items: center;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+  
+.login-form input[type="submit"]:hover {
+  background: #0ea889;
+}

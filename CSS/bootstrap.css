@@ -1,0 +1,57 @@
+/* Le formulaire */
+.form {
+  width: 40%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #202020cc;
+  margin-top: 20px;
+  border-radius: 50px;
+}
+
+.form-group {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 30px;
+  justify-content: center;
+  display: flex;
+}
+
+.form-control {
+  background-color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  align-items: center;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Style pour le bouton de connexion */
+.co-btn {
+  padding: 10px 20px;
+  margin-top: 50px;
+  margin-left: 45%;
+  margin-bottom: 30px;
+  background-color: #00F0FF;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.co-btn button:hover {
+  background-color: #0E71A8;
+}
+
+.co-btn:focus {
+  outline: none;
+  box-shadow: 0px 0px 0px 3px rgba(29, 161, 242, 0.5);
+}

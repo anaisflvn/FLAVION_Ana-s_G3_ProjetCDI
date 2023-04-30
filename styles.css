@@ -1,0 +1,165 @@
+@import url(CSS/bootstrap.css);
+@import url(CSS/header.css);
+@import url(CSS/login.css);
+@import url(CSS/post.css);
+@import url(CSS/sidenav.css);
+@import url(CSS/tweets.css);
+@import url(CSS/popup.css);
+
+body {
+    background-image: url(./Images/Background.jpeg);
+    color : white;
+    font-family: 'Roboto';
+}
+  
+ul, ol {
+    list-style: none;
+}
+  
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 480px) {
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .openbtn {
+        background: none;
+        width: 60px;
+        border: unset;
+    }
+
+    .zone-post {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        border-radius: 50px;
+        margin: 0% 0% 0% 0%;
+        background-color: #202020cc;
+    }
+
+    .search-bar {
+        visibility: hidden;
+    }
+
+    .twitter-btn {
+        padding: 10px 20px;
+        margin-top: 50px;
+        margin-left: 60%;
+        margin-bottom: 30px;
+        background-color: #00F0FF;
+        border: none;
+        border-radius: 30px;
+        color: #fff;
+        font-weight: bold;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .block {
+        background-color: #454545;
+        border-radius: 40px;
+        padding: 10px;
+        margin-bottom: 30px;
+        margin: 5%;
+        height: 20%;
+        transition-duration: 4s;
+    }
+
+    .popup-btn {
+        width: 30%;
+        height: 20%;
+        margin-left: 35%;
+        border-radius: 30px;
+        margin-top: 30px;
+        padding: 10px;
+        background-color: #00F0FF;
+        color: #fff;
+        font-weight: bold;
+        text-transform: uppercase;
+        border: none;
+        cursor: pointer;
+        animation: blink 3s ease-in-out infinite;
+    }
+
+    .tweet-post {
+        border-radius: 20px;
+        margin-top: 50px;
+        background-color: #202020cc;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .tweet-post input {
+        border: 1px solid #454545;
+        border-radius: 10px;
+        padding: 50px;
+        height: 70%;
+        width: 78%;
+        font-size: 20px;
+    }
+
+    .sidenav {
+        position: fixed;
+        z-index: 1;
+        top: 221px;
+        left: 0%;
+        border-radius: 0px 50px 50px 0px;
+        background-color: #202020;
+        overflow-x: hidden;
+        padding-top: 16px;
+        transition: 0.5s;
+    }
+
+    #autrepopup {
+        position: fixed;
+        top: 30%;
+        left: 16%;
+        width: 60%;
+        background-color: #454545;
+        padding: 20px;
+        border: 2px solid #00F0FF;
+        border-radius: 30px;
+    }
+
+    .btn-supp {
+        background-color: #f34545;
+        color: #fff;
+        margin: 0% 50% 0% 33%;
+        width: 35%;
+        height: 20%;
+        font-weight: bold;
+        text-transform: uppercase;
+        border: none;
+        border-radius: 30px;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .form {
+        width: 65%;
+        margin: 0 auto;
+        margin-top: 0px;
+        padding: 20px;
+        background-color: #202020cc;
+        margin-top: 20px;
+        border-radius: 50px;
+    }
+
+    .co-btn {
+        margin-left: 30%;
+    }
+
+    .login-form {
+        width: 65%;
+      }
+      
+}
+

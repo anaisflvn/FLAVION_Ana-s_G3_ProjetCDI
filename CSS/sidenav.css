@@ -1,0 +1,39 @@
+/* Style pour la sidenav */
+.sidenav {
+    height: auto;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 221px;
+    left: 0;
+    border-radius: 0px 50px 50px 0px;
+    background-color: #202020cc;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+  
+.sidenav a {
+    padding: 5px 10px 30px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 1.5s;
+}
+  
+.sidenav a:hover {
+    color: #00F0FF;
+}
+  
+.img-icons {
+    padding: 5px 10px 30px 16px;
+    height: 40px;
+    padding: 5px;
+}
+
+.openbtn {
+    padding: 5px 10px 30px 16px;
+    height: 50px;
+    padding: 10px;
+}

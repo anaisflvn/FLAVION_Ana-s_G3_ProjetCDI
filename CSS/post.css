@@ -1,0 +1,81 @@
+#popup {
+    visibility: hidden;
+}
+
+/* Style pour le post et le bouton de post */
+.tweet-post {
+    border-radius: 50px;
+    margin-top: 50px;
+    background-color: #202020cc;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.tweet-post label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+    
+.tweet-post input {
+    border: 1px solid #454545;
+    background-color: #454545;
+    border-radius: 40px;
+    padding: 20px;
+    height: 300px;
+    width: 95%;
+    font-size: 20px;
+}
+    
+.tweet-post button {
+    background-color: #00F0FF;
+    color: #fff;
+    margin: 5% 50% 10% 35%;
+    width: 30%;
+    height: 20%;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    cursor: pointer;
+    animation: blink 3s ease-in-out infinite;
+}
+
+@keyframes blink {
+    0% { background-color: #00F0FF; }
+    50% { background-color: #00ffd5; }
+    100% { background-color: #00ffbb; }  
+}
+    
+
+/*Les tags*/
+.tag {
+    background-color: #fff;
+    color: #00F0FF;
+    font-weight: bold;
+    margin: 5% 10% 0% 35%;
+    width: 30%;
+    height: 20%;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    cursor: pointer;
+    animation: color 3s ease-in-out infinite;
+}
+
+@keyframes color {
+    0% { color: #00F0FF; }
+    50% { color: #00ffd5; }
+    100% { color: #00ffbb; }
+}
+  
+.popup {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 20%;
+    margin-top: 7px;
+}
